@@ -1,0 +1,316 @@
+
+body { 
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px;
+
+}
+
+/*main css for header (for all menu) */
+header{
+	background:#808436;
+	color:#ffffff;
+	padding-top:5px;
+	min-height:70px;
+	border-bottom:#393B00 3px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #v_dorms{
+	float:left;
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:20px;
+}
+
+header .highlight, header .active a{
+	color:#B9BC79;
+	font-weight:bold;
+}
+
+header a:hover{
+	color:#FCFDDE;
+	font-weight:bold;
+}
+.headlogo {
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+/*end of header's css */
+div.polaroid {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+div.container {
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 17px;
+}
+
+.button {
+	background-color: #B5B78B; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	margin-left: 8%;
+	margin-top: 1%;
+}
+.button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #9DA064;
+
+}
+.button1:hover {
+	background-color: #B5B78B;
+	color: white;
+}
+
+/*ROOMS IMAGES */
+
+#room_1{ /*image*/
+	position: static;
+	width: 40%;
+	float: left;
+	clear: both;
+	margin-left: 5%;	
+}
+
+.rm_1 {  /*position of content */
+	margin-left: 700px;
+	margin-right: 50px;	
+	margin-top: 150px;
+	width: 40%;
+
+}
+
+.rm_1 h2 { 
+	text-align: left;
+	font-size: 50px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.rm1_text { 
+	text-align: justify;
+	line-height: 1.6; 
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	padding-right: 20px;
+	
+}
+
+#room_2 { /*image*/
+	position: static;
+	width: 40%;
+	float: right;
+	clear: both;
+	margin-right: 5%;
+}
+
+.rm_2 {
+	margin-right: 50%;
+	margin-left: 5%;
+	margin-top: 150px;	
+}
+
+.rm_2 h2 {
+	text-align: left;
+	font-size: 50px;
+	font-family: 'Inconsolata', monospace;
+	margin-right: 20%;
+}
+
+.rm2_text { 
+	text-align: justify;
+	line-height: 1.6; 
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	
+}
+#room_3{ /*image*/
+	position: static;
+	width: 40%;
+	float: left;
+	clear: both;
+	margin-left: 5%;
+	margin-top: 5%;	
+}
+.rm_3 {  /*position of content */
+	margin-left: 1000px;
+	margin-right: 50px;	
+	margin-top: 150px;
+	width: 40%;
+
+}
+
+.rm_3 h2 { 
+	text-align: left;
+	font-size: 50px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.rm3_text { 
+	text-align: justify;
+	line-height: 1.6; 
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	padding-right: 20px;
+	
+}
+#room_4 { /*image*/
+	position: static;
+	width: 40%;
+	float: right;
+	clear: both;
+	margin-right: 5%;
+}
+
+.rm_4 {
+	margin-right: 50%;
+	margin-left: 5%;
+	margin-top: 90px;
+	
+	
+}
+
+.rm_4 h2 {
+	text-align: left;
+	font-size: 50px;
+	font-family: 'Inconsolata', monospace;
+	margin-right: 20%;
+}
+
+.rm4_text { 
+	text-align: justify;
+	line-height: 1.6; 
+	letter-spacing: 0.5px;
+	margin-top: 10px;
+	
+}
+
+/* gamit ng position-absolute para sa horizontal chu chu */
+.icons { 
+	text-align: center;
+	position: relative;
+	margin-left: 30%;	
+}
+
+.icon_1 { /*shower*/
+	font-size: 25px; 
+	position: absolute;
+	top: 20%;
+}
+
+.icon_1 span { /*icon */
+	font-size: 50px; 
+}
+
+.icon_1 p {  /*text*/
+	font-size: 25px; 
+}
+.icon_2 { /* admin */
+	font-size: 30px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+.icon_2 span { /*icon */
+	font-size: 50px; 
+}
+
+.icon_2 p {  /*text*/
+	font-size: 25px; 
+	width: 200px;
+}
+
+
+.icon_3 { /*CCTV*/
+	font-size: 25px; 
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+
+.icon_3 span { /*icon */
+	font-size: 50px; 
+}
+.icon_3 p {  /*text*/
+	font-size: 25px; 
+}
+
+.icon_4 { /*fam*/
+	font-size: 25px; 
+	position: absolute;
+	top: 20%;
+	left: 60%;
+}
+.icon_4 span { /*icon */
+	font-size: 50px; 
+}
+.icon_4 p {  /*text*/
+	font-size: 25px; 
+	width: 200px;
+}
+
+footer { 
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #646536;
+	color: white;
+	text-align: center;
+	margin-top: 20%;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+
+	.rm_1 {  /*position of content */
+		margin-left: 53%;
+		width: 35%;
+
+	}
+	.rm_2 {
+		width: 35%;
+		margin-top: 15%;
+		margin-left: 10%;	
+	}
+	.rm_3 {  /*position of content */
+		width: 35%;
+		padding: 0px;
+		margin-top: 30%;
+		
+	}
+
+	.icons { 
+		text-align: center;
+		position: relative;
+		margin-left: 20%;
+		margin-top: 10%;	
+	}
+}
